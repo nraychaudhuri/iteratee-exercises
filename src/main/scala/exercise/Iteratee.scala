@@ -7,7 +7,7 @@ object Iteratee {
   object Enumerator {
     def apply[E](e: E*): Enumerator[E] = ???
     
-    def fromStream(inputStream: InputStream, chunkSize: Int): Enumerator[Array[Byte]] = ???
+    def fromStream(inputStream: InputStream): Enumerator[Byte] = ???
   }
   
   
