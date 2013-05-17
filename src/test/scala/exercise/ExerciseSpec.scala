@@ -3,7 +3,11 @@ package exercise
 import org.specs2.mutable._
 import iteratee.LazyContext
 import iteratee.IterateeContract.Iteratee
-import Iteratee._
+
+//uncomment this to run the tests with solution
+import solution.Iteratee._
+
+//import Iteratee._
 
 class ExerciseSpec extends Specification {
   
