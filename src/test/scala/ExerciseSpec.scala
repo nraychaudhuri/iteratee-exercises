@@ -1,13 +1,12 @@
-package exercise
-
 import org.specs2.mutable._
 import iteratee.LazyContext
 import iteratee.IterateeContract.Iteratee
 
 //uncomment this to run the tests with solution
-import solution.Iteratee._
+//import solution._
+import exercise._
 
-//import Iteratee._
+import Exercise._
 
 class ExerciseSpec extends Specification {
   
