@@ -2,7 +2,7 @@ package exercise
 
 import iteratee.IterateeContract._
 import java.io.InputStream
-import solution.Iteratee._
+import iteratee.LazyContext
 
 object Enumerator {
   def apply[E](e: E*): Enumerator[E] = ???
