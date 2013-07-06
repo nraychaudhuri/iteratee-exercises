@@ -7,7 +7,7 @@ object Exercise {
 
   def counter[E]: Iteratee[E, Int] = ???
 
-  def sum[Int]: Iteratee[Int, Int] = ???
+  def sum: Iteratee[Int, Int] = ???
 
   def head[E]: Iteratee[E, Option[E]] = ???
   
